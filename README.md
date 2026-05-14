@@ -1,6 +1,6 @@
 # Ubuntu 26.04 Media Box Apple Screen Saver
 
-This project contains scripts for Ubuntu 26 to help run the apple screen saver videos after 60 seconds of idle. I use this on my TV media computer to give a nice asthetic to my living room. Thanks apple!
+This project contains scripts for Ubuntu 26 to help run the apple screen saver videos after 60 seconds of idle. I use this on my TV media computer to give a nice asthetic to my living room. Thanks Apple!
 
 1. Install pre-requisite software
 ```
