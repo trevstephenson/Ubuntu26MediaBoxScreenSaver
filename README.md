@@ -19,8 +19,11 @@ gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-typ
 gsettings set org.gnome.settings-daemon.plugins.power power-saver-profile-on-low-battery false
 ```
 3. Run download-vids.sh to downlaod the full set of apple screensaver videos in .mov format. They will be placed in a relative folder called ./aerials. Note: my media pc is not very powerful so I've specified the HD versions, if you want 4k you can modify the script to download those ones. Check the variables at the top of the script.
-4. Modify VIDEO_DIR= in the idle-vieo.sh script to the location of your apple vidoes downloaded in the step above.
-5. execute the following commands
+```
+download-vids.sh 
+```
+5. Modify VIDEO_DIR= in the idle-vieo.sh script to the location of your apple vidoes downloaded in the step above.
+6. execute the following commands
 ```
 systemctl --user daemon-reload
 systemctl --user enable --now idle-video.service
