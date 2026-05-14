@@ -5,8 +5,7 @@ This project contains scripts for Ubuntu 26 to help run the apple screen saver v
 1. Install pre-requisite software
 ```
 sudo apt update
-sudo apt install curl
-sudo apt install mpv libglib2.0-bin
+sudo apt install curl mpv libglib2.0-bin
 ```
 2. Do everyting possible to turn off features in Gnome that cause the screen to turn off
 ```
@@ -23,8 +22,8 @@ gsettings set org.gnome.settings-daemon.plugins.power power-saver-profile-on-low
 chmod +x download-vids.sh
 download-vids.sh 
 ```
-5. Modify VIDEO_DIR= in the idle-video.sh script to the location of your apple vidoes downloaded in the step above.
-6. execute the following commands
+4. Modify VIDEO_DIR= in the idle-video.sh script to the location of your apple vidoes downloaded in the step above.
+5. execute the following commands
 ```
 chmod +x idle-video.sh
 systemctl --user daemon-reload
