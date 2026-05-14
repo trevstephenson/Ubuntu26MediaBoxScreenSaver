@@ -1,0 +1,11 @@
+[Unit]
+Description=Idle video player
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/home/tv/Videos/Aerial/idle-video.sh
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
