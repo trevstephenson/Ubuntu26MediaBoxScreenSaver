@@ -23,7 +23,8 @@ chmod +x download-vids.sh
 download-vids.sh 
 ```
 4. Modify VIDEO_DIR= in the idle-video.sh script to the location of your apple vidoes downloaded in the step above.
-5. execute the following commands
+5. Move the idle-video.service file to ~/.config/systemd/user/idle-video.service. Modify the path in the script to the locaiton of idle-video.sh script.
+6. execute the following commands
 ```
 chmod +x idle-video.sh
 systemctl --user daemon-reload
